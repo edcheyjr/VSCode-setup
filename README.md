@@ -6,6 +6,9 @@
 - **[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)**
 - **[MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)**
 - **[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
+- **[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)**
+- **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**
+- **[PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)**
 ### settings for my vscode
 ```
 {

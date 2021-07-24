@@ -1,10 +1,8 @@
 # VSCode-setup
 ### Extensions
-**[Bracket Pair Colorizer]( https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)**
-**(ES7 React/Redux/GraphQL/React-Native snippets)[https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets]**
-**()[ https://github.com/CoenraadS/Bracket-Pair-Colorizer-2]**
-**(Bracket Pair Colorizer)[ https://github.com/CoenraadS/Bracket-Pair-Colorizer-2]**
-**(Bracket Pair Colorizer)[ https://github.com/CoenraadS/Bracket-Pair-Colorizer-2]**
+- **[Bracket Pair Colorizer]( https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)**
+- **[composer download](https://getcomposer.org/download/)**
+- **[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)**
 ### settings for my vscode
 ```
 {

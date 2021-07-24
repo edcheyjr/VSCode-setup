@@ -4,7 +4,7 @@
 ```
 {
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "php.validate.executablePath": "C:/xampp/php/php",
+  "php.validate.executablePath": "",//php excutable path
   "auto-rename-tag.activationOnLanguage": ["*"],
   "files.autoSave": "off",
   "editor.tabSize": 1,

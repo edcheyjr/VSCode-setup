@@ -1,6 +1,7 @@
 # VSCode-setup
 ### Extensions
 - **[Bracket Pair Colorizer]( https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)**
+- **[Version Lens]( https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**
 - **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
 - **[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)**
 - **[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)**

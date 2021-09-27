@@ -1,7 +1,6 @@
 {
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "php.validate.executablePath": "C:/xampp/php/php",
-  "auto-rename-tag.activationOnLanguage": ["*"],
+  "php.validate.executablePath": "", //php excutable path
   "files.autoSave": "off",
   "editor.tabSize": 1,
   "editor.wordWrap": "on",
@@ -11,7 +10,7 @@
   },
   "editor.minimap.enabled": false,
   "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -19,5 +18,28 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "versionlens.dotnet.nuget.sources": [],
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.autoClosingQuotes": "always",
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)" // tw.xxx`...`
+  ],
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML",
+    "javascriptreact": "javascript",
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  }
 }

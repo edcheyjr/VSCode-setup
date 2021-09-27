@@ -1,4 +1,6 @@
 # VSCode-setup
+<img src="./installed ext.png"/>
+<img src="./installed ext2.png"/>
 ### Extensions
 - **[Bracket Pair Colorizer]( https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)**
 - **[Version Lens]( https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)**

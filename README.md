@@ -15,9 +15,12 @@
 - **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**
 - **[PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)**
 - **[Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)**
-- **[Highlight matching tags \n <img src="https://images2.imgbox.com/c6/c3/sLkQluHb_o.png"/>](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)**
+- **[Highlight matching tags
+- <img src="https://images2.imgbox.com/c6/c3/sLkQluHb_o.png"/>
+- ](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)**
 - **[Jupter notebook for vscode](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)**
-- **[Vscode Icon😎]([https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons))**
+- **[Vscode Icon😎](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icon)**
+
 ### settings for my vscode
 ```
 {

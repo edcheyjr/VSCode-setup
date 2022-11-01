@@ -24,14 +24,22 @@
 ```
 {
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "php.validate.executablePath": "",//php excutable path
-  "auto-rename-tag.activationOnLanguage": ["*"],
+  "php.validate.executablePath": "C:/xampp/php/php",
+
+  "auto-rename-tag.activationOnLanguage": [
+    "javascriptreact",
+    "html",
+    "xml",
+    "php",
+    "javascript"
+  ],
   "files.autoSave": "off",
   "editor.tabSize": 1,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 14,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
   },
   "editor.minimap.enabled": false,
   "prettier.jsxSingleQuote": true,
@@ -43,7 +51,27 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "jupyter.askForKernelRestart": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html,javascript,typescript"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.largeFileOptimizations": false,
+  "gitlens.defaultDateLocale": null,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
 
 

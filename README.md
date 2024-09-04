@@ -23,6 +23,13 @@
 ### settings for my vscode
 ```
 {
+  "git.autofetch": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["/myfile"],
+      "url": "schemaURL"
+    }
+  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "php.validate.executablePath": "C:/xampp/php/php",
 
@@ -31,7 +38,8 @@
     "html",
     "xml",
     "php",
-    "javascript"
+    "javascript",
+    "python"
   ],
   "files.autoSave": "off",
   "editor.tabSize": 1,
@@ -71,7 +79,30 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.largeFileOptimizations": false,
   "gitlens.defaultDateLocale": null,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {},
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    // "foreground": "red",
+    // "background": "white",
+    "opacity": 50,
+    "iconColour": "blue"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "background": "green",
+      "foreground": "white"
+    },
+    "FIXME": {
+      "foreground": "black",
+      "iconColour": "yellow",
+      "background": "yellow",
+      "gutterIcon": true
+    }
+  }
 }
 
 

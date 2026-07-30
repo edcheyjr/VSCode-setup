@@ -1,82 +1,148 @@
 {
-  "git.autofetch": true,
-  "json.schemas": [
-    {
-      "fileMatch": ["/myfile"],
-      "url": "schemaURL"
-    }
-  ],
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "php.validate.executablePath": "C:/xampp/php/php",
-
-  "auto-rename-tag.activationOnLanguage": [
-    "javascriptreact",
-    "html",
-    "xml",
-    "php",
-    "javascript",
-    "python"
-  ],
-  "files.autoSave": "off",
-  "editor.tabSize": 1,
-  "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 14,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-  "editor.minimap.enabled": false,
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.cursorBlinking": "expand",
-  "launch": {
-    "configurations": [],
-    "compounds": []
-  },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.inlineSuggest.enabled": true,
-  "jupyter.askForKernelRestart": false,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html,javascript,typescript"
-  },
-  "explorer.confirmDelete": false,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.largeFileOptimizations": false,
-  "gitlens.defaultDateLocale": null,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.codeActionsOnSave": {},
-  "todo-tree.highlights.defaultHighlight": {
-    "icon": "alert",
-    "type": "text",
-    // "foreground": "red",
-    // "background": "white",
-    "opacity": 50,
-    "iconColour": "blue"
-  },
-  "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "icon": "check",
-      "type": "line",
-      "background": "green",
-      "foreground": "white"
+    "git.autofetch": true,
+    "json.schemas": [
+    
+        {
+            "fileMatch": ["/myfile"],
+            "url": "schemaURL",
+        },
+    ],
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "always",
     },
-    "FIXME": {
-      "foreground": "black",
-      "iconColour": "yellow",
-      "background": "yellow",
-      "gutterIcon": true
-    }
-  }
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "php.validate.executablePath": "/opt/lampp/bin/php",
+
+    "auto-rename-tag.activationOnLanguage": [
+        "javascriptreact",
+        "html",
+        "xml",
+        "php",
+        "javascript",
+        "python",
+    ],
+    "editor.tabSize": 1,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 14,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact",
+    },
+    "prettier.jsxSingleQuote": false,
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "editor.cursorBlinking": "expand",
+    "launch": {
+        "configurations": [],
+        "compounds": [],
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit",
+        },
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html,javascript,typescript",
+    },
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.largeFileOptimizations": false,
+    "gitlens.defaultDateLocale": null,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {},
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "background": "transparent",
+        "foreground": "red",
+        "fontWeight": "600",
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "text-and-comment",
+            "background": "green",
+            "foreground": "white",
+        },
+        "FIXME": {
+            "opacity": 50,
+            "type": "tag-and-comment",
+            "foreground": "black",
+            "background": "yellow",
+            "gutterIcon": true,
+        },
+    },
+    "githubPullRequests.createOnPublishBranch": "never",
+    "redhat.telemetry.enabled": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "git.openRepositoryInParentFolders": "always",
+    "go.toolsManagement.autoUpdate": true,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "makefile.configureOnOpen": true,
+    "gitlens.launchpad.indicator.enabled": false,
+    "settingsSync.ignoredExtensions": [],
+    "workbench.startupEditor": "none",
+    "docker.extension.enableComposeLanguageServer": false,
+    "githubPullRequests.pullBranch": "never",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+        "*.dart": "${capture}.g.dart",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*",
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+    "editor.fontFamily": "\"Courier, 'Courier Prime', monospace\"",
+    "terminal.integrated.fontFamily": "monospace",
+    "git.ignoreRebaseWarning": true,
+    "gitlens.ai.model": "openai:gpt-5",
+    "gitlens.ai.vscode.model": "copilot:gpt-5-mini",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+    "workbench.colorTheme": "Dark Modern",
+    "claudeCode.preferredLocation": "panel",
+    "debug.onTaskErrors": "showErrors",
+    "python.analysis.typeCheckingMode": "standard",
+    "github.copilot.nextEditSuggestions.eagerness": "low",
+    "task.allowAutomaticTasks": "on",
+    "debug.breakpointsView.presentation": "tree",
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls",
+    },
 }
